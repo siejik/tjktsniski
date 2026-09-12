@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Galeri — TJKT</title>
+<meta name="description" content="Album foto praktek, video kegiatan, dan foto fasilitas Jurusan TJKT.">
+<link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body>
+
+<nav class="navbar">
+    <div class="container">
+        <a href="../index.html" class="brand">
+            <svg class="brand-mark" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="6" cy="24" r="3" fill="#17A398"/>
+                <circle cx="24" cy="6" r="3" fill="#2F6FED"/>
+                <circle cx="24" cy="24" r="3" fill="#2F6FED"/>
+                <path d="M6 24L24 6M6 24L24 24" stroke="#8FA3BF" stroke-width="1.4"/>
+            </svg>
+            TJKT
+        </a>
+        <ul class="nav-links">
+            <li><a href="../index.html">Beranda</a></li>
+            <li><a href="profil.html">Profil</a></li>
+            <li><a href="kegiatan.html">Kegiatan</a></li>
+            <li><a href="galeri.html">Galeri</a></li>
+            <li><a href="flyer-pkl.html">PKL</a></li>
+        </ul>
+        <button class="nav-toggle" aria-label="Buka menu">
+            <span></span><span></span><span></span>
+        </button>
+    </div>
+</nav>
+
+<header class="page-header">
+    <div class="container">
+        <div class="node-mark"><span>Galeri Praktek</span></div>
+        <h1>Album Foto &amp; Video Kegiatan</h1>
+        <p>Dokumentasi praktik, kegiatan, serta fasilitas dan laboratorium jurusan.</p>
+    </div>
+</header>
+
+<section>
+    <div class="container">
+        <div class="tabs">
+            <button class="tab-btn active" data-filter="semua">Semua</button>
+            <button class="tab-btn" data-filter="praktek">Foto Praktek</button>
+            <button class="tab-btn" data-filter="kegiatan">Video Kegiatan</button>
+            <button class="tab-btn" data-filter="fasilitas">Fasilitas &amp; Lab</button>
+        </div>
+
+        <div class="gallery-grid">
+            <div class="gallery-item" data-kategori="praktek" data-full="https://placehold.co/1000x750/EAF1FB/2F6FED?text=Praktik+1">
+                <img src="https://placehold.co/480x360/EAF1FB/2F6FED?text=Praktik+1" alt="Foto praktik jaringan 1">
+                <span class="caption">Praktik crimping kabel UTP</span>
+            </div>
+            <div class="gallery-item" data-kategori="praktek" data-full="https://placehold.co/1000x750/EAF1FB/2F6FED?text=Praktik+2">
+                <img src="https://placehold.co/480x360/EAF1FB/2F6FED?text=Praktik+2" alt="Foto praktik jaringan 2">
+                <span class="caption">Konfigurasi switch di lab</span>
+            </div>
+            <div class="gallery-item" data-kategori="praktek" data-full="https://placehold.co/1000x750/EAF1FB/2F6FED?text=Praktik+3">
+                <img src="https://placehold.co/480x360/EAF1FB/2F6FED?text=Praktik+3" alt="Foto praktik jaringan 3">
+                <span class="caption">Penyambungan fiber optic</span>
+            </div>
+
+            <div class="gallery-item" data-kategori="kegiatan">
+                <div class="video-embed">
+                    <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ" title="Video kegiatan TJKT" allowfullscreen></iframe>
+                </div>
+            </div>
+            <div class="gallery-item" data-kategori="kegiatan">
+                <div class="video-embed">
+                    <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ" title="Video kegiatan TJKT 2" allowfullscreen></iframe>
+                </div>
+            </div>
+
+            <div class="gallery-item" data-kategori="fasilitas" data-full="https://placehold.co/1000x750/EAF1FB/17A398?text=Lab+1">
+                <img src="https://placehold.co/480x360/EAF1FB/17A398?text=Lab+1" alt="Foto lab jaringan 1">
+                <span class="caption">Laboratorium Jaringan Utama</span>
+            </div>
+            <div class="gallery-item" data-kategori="fasilitas" data-full="https://placehold.co/1000x750/EAF1FB/17A398?text=Lab+2">
+                <img src="https://placehold.co/480x360/EAF1FB/17A398?text=Lab+2" alt="Foto lab jaringan 2">
+                <span class="caption">Rak server praktik siswa</span>
+            </div>
+            <div class="gallery-item" data-kategori="fasilitas" data-full="https://placehold.co/1000x750/EAF1FB/17A398?text=Lab+3">
+                <img src="https://placehold.co/480x360/EAF1FB/17A398?text=Lab+3" alt="Foto lab jaringan 3">
+                <span class="caption">Ruang praktik fiber optic</span>
+            </div>
+        </div>
+    </div>
+</section>
+
+<div class="lightbox">
+    <button class="lightbox-close" aria-label="Tutup">&times;</button>
+    <img src="" alt="Tampilan penuh foto galeri">
+</div>
+
+<footer>
+    <div class="container">
+        <div class="footer-grid">
+            <div>
+                <div class="brand" style="margin-bottom:12px;">
+                    <svg class="brand-mark" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <circle cx="6" cy="24" r="3" fill="#17A398"/>
+                        <circle cx="24" cy="6" r="3" fill="#2F6FED"/>
+                        <circle cx="24" cy="24" r="3" fill="#2F6FED"/>
+                        <path d="M6 24L24 6M6 24L24 24" stroke="#8FA3BF" stroke-width="1.4"/>
+                    </svg>
+                    Jurusan TJKT
+                </div>
+                <p style="max-width:34ch; font-size:.9rem;">Teknik Jaringan Komputer dan Telekomunikasi — SMK Negeri. Mencetak teknisi jaringan siap kerja.</p>
+            </div>
+            <div>
+                <h4>Navigasi</h4>
+                <ul>
+                    <li><a href="profil.html">Profil Jurusan</a></li>
+                    <li><a href="kegiatan.html">Kegiatan</a></li>
+                    <li><a href="galeri.html">Galeri</a></li>
+                    <li><a href="flyer-pkl.html">Flyer PKL</a></li>
+                </ul>
+            </div>
+            <div>
+                <h4>Kontak</h4>
+                <ul>
+                    <li>tjkt@sekolah.sch.id</li>
+                    <li>+62 812-3456-789</li>
+                    <li>Jl. Pendidikan No. 1</li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <span>© 2026 Jurusan TJKT. Semua hak dilindungi.</span>
+            <span>Dibangun oleh Tim Pengembang Jurusan</span>
+        </div>
+    </div>
+</footer>
+
+<script src="../assets/js/main.js"></script>
+</body>
+</html>
