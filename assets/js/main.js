@@ -37,16 +37,9 @@ document.addEventListener('DOMContentLoaded', function () {
         });
     }
 
-    // tandai link navbar aktif sesuai halaman saat ini (desktop + mobile)
-    const currentPage = window.location.pathname.split('/').pop() || 'index.html';
-    document.querySelectorAll('[data-nav]').forEach(function (link) {
-        const target = link.getAttribute('data-nav');
-        if (target === currentPage) {
-            link.classList.add('text-white');
-            link.classList.remove('text-slate-300', 'text-slate-400');
-            link.classList.add('after:w-full');
-        }
-    });
+    // Catatan: highlight link navbar aktif sekarang ditentukan di server
+    // lewat includes/header.php (fungsi nav_class / nav_class_mobile),
+    // jadi tidak perlu lagi dideteksi lewat JS di sini.
 
     // -----------------------------------------------------------------
     // 2. Hero slideshow (foto background bergeser di halaman beranda)
